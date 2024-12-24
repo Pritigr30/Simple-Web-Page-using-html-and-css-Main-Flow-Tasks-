@@ -1,0 +1,51 @@
+nav{
+
+    background-color: orange; /* Background color */
+    overflow: hidden; /* Clear floats */
+    height: 100px; /* Increase height */
+    display: flex; /* Flex layout for alignment */
+    align-items: center; /* Center items vertically */
+  }
+
+  /* Style for links inside the navbar */
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px; /* Adjust padding for larger size */
+    text-decoration: none;
+    font-size: 18px; /* Increase font size */
+  }
+
+  /* Change link color on hover */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    overflow: auto;
+  }
+  horizontal-scroll img {
+    width: 300px; /* Fixed container width */
+    border: 1px solid #ccc;
+    overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap;
+  }
+  h2{
+    text-align: center;
+  }
+  img-grid {
+    display: flex;
+    gap: 20px;
+}
+.circular-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px;
+}
